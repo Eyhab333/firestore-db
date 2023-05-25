@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- This project is a web application that allows users to create and manage tasks. It is built using React and Firebase, and includes features such as user authentication, email verification, and offline functionality through service workers.
+
+- To run this project locally, you will need to have Node.js and npm installed on your machine. Once you have cloned the repository, navigate to the project directory in your terminal and run the following command to install the necessary dependencies:
+
+npm install
+``
 
 ## Available Scripts
 
