@@ -104,15 +104,15 @@ const Home = () => {
         <main>
           <h1 style={{ fontSize: "28px" }}>
             {i18n.language === "en" && (
-              <span>Welcome to React Level 3 🔥🔥</span>
+              <span>Welcome</span>
             )}
 
             {i18n.language === "ar" && (
-              <span> 🔥🔥 المستوى الثالث من كورس ريأكت </span>
+              <span>    مرحبا </span>
             )}
 
             {i18n.language === "fr" && (
-              <span>Bienvenue au niveau 3 de React 🔥🔥</span>
+              <span>Accueillir</span>
             )}
           </h1>
           {i18n.language === "en" && (
