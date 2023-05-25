@@ -19,7 +19,7 @@ await setDoc(doc(db, "Ali Hassan", "test123"), {
 Npm I React-Firebase-Hooks
 ```
 
-### Get all documents
+- Get all documents
 
 ```
  import { useCollection } from "react-firebase-hooks/firestore";
@@ -33,7 +33,7 @@ Npm I React-Firebase-Hooks
  value.docs.map(***)
 ```
 
-### Get all documents in specific order
+- Get all documents in specific order
 
 ```
 import { useCollection } from "react-firebase-hooks/firestore";
@@ -54,7 +54,7 @@ const [value, loading, error] = useCollection(
 );
 ```
 
-### get a specific group of documents
+- get a specific group of documents
 
 ```
 import { useCollection } from "react-firebase-hooks/firestore";
@@ -66,7 +66,7 @@ const [value, loading, error] = useCollection(
 ```
 Invalid: Range filter and first orderBy on different fields
 
-### get one document
+- get one document
 
 ```
 import { useDocument } from "react-firebase-hooks/firestore";
